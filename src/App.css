@@ -1,0 +1,13 @@
+* {
+  --primary-color: #b5d8ff;
+  --primary-color-light: #e3f1ff;
+  --primary-color-dark: #5c9ce5;
+}
+body {
+  background-color: var(--primary-color);
+}
+.container {
+  display: grid;
+  grid-template-columns: 0.5fr 10fr;
+  margin: 3rem;
+}
