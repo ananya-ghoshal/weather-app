@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="container">
       <Sidenav />
-      <Hero />
       <Routes>
+        <Route path="/" element={<Hero />}></Route>
         <Route path="/traffic" element={<Traffic />}></Route>
         <Route path="/events" element={<Events />}></Route>
         <Route path="/crops" element={<Crops />}></Route>

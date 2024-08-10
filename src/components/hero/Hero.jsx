@@ -1,9 +1,10 @@
-import React from "react";
+import { React, useState } from "react";
 import "./Hero.css";
 import Search from "../../icons/search.svg";
 import CalendarIcon from "../../icons/events.svg";
 
 function Main() {
+  const [location, setLocation] = useState("");
   return (
     <div className="hero">
       <div className="search">
