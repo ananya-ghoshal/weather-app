@@ -9,5 +9,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: 0.5fr 10fr;
-  margin: 3rem;
+  margin: 5rem;
+  height: 60vh;
+  border-radius: 30px;
 }

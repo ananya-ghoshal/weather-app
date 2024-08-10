@@ -5,12 +5,11 @@
 }
 .sidenav {
   background-color: var(--primary-color-dark);
+  width: 10rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 3rem;
-  border: 1px #e3f1ff solid;
-  border-radius: 10px;
 }
 .sidenav-element {
   display: flex;

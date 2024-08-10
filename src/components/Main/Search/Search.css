@@ -4,11 +4,8 @@
   --primary-color-dark: #5c9ce5;
 }
 
-.hero {
+.search-main {
   padding: 2rem;
-  background-color: var(--primary-color-light);
-  border: 1px #e3f1ff solid;
-  border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -22,7 +19,14 @@
 }
 .search_city {
   display: flex;
-  gap: 1rem;
+}
+.search_date {
+  display: flex;
+}
+.search-icons {
+  margin-top: 0.5rem;
+  height: 1rem;
+  width: 1rem;
 }
 .search input {
   height: 2rem;
