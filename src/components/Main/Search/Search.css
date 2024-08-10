@@ -6,16 +6,10 @@
 
 .search-main {
   padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  gap: 2rem;
 }
-
 .search {
-  margin: 0 auto auto auto;
   display: flex;
-  gap: 10rem;
+  justify-content: space-evenly;
 }
 .search_city {
   display: flex;
@@ -35,4 +29,62 @@
   border-radius: 10px;
   padding-left: 1rem;
   margin-left: 0.5rem;
+}
+.weather-info {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}
+.weather-card {
+  width: 50%;
+  padding-top: 1rem;
+  border-radius: 10px;
+  color: #1f3853;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../../../images/sunny.jpg);
+  background-size: cover;
+}
+.location {
+  display: flex;
+  gap: 2rem;
+}
+.tempDeg {
+  font-size: 2.5rem;
+}
+.sun-timings {
+  display: flex;
+  gap: 2rem;
+}
+.sun-timings > p {
+  display: flex;
+  align-items: center;
+}
+.sun-timings > p > img {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.weather-details {
+  display: flex;
+  gap: 1rem;
+}
+.weather-details-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.weather-details-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.weather-data {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.weather-icon {
+  height: 1.5rem;
+  width: 1.5rem;
 }

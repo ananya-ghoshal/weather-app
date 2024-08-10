@@ -10,6 +10,6 @@ body {
   display: grid;
   grid-template-columns: 0.5fr 10fr;
   margin: 5rem;
-  height: 60vh;
+  height: 80vh;
   border-radius: 30px;
 }
